@@ -31,7 +31,8 @@ URL:                https://github.com/rogerbinns/apsw
 Source:             https://github.com/rogerbinns/apsw/releases/download/%{pkg_version}/apsw-%{pkg_version}.zip
 
 # https://github.com/rogerbinns/apsw/commit/13df0b57bff59542978abf7c0a440c9274e3aac3
-Patch3:             0003-Fix-virtual-table-test.patch
+# Patch already merged
+# Patch3:             0003-Fix-virtual-table-test.patch
 
 BuildRequires:      gcc
 BuildRequires:      python2-devel
